@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Slabo+27px'>
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+	<link rel="stylesheet" type='text/css' href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	
+	<div id="container">
+		
+		<div id="header">
+			<h1><i class="fa fa-star"></i> Texas Hold'Em [101]</h1>
+		</div>
+
+<ul id="navbar">
+	<li><a href="home.htm">Home</a></li>
+	<li><a href="players.html">Famous Players</a></li>
+	<li><a href="handRanks.html">Hand Ranks</a></li>
+	<li><a href="pokerai.html">Poker AI</a></li>
+	<li><a href="rules.html">Rules</a></li>
+	<li><a href="ContactUs.html">Contact Us</a></li>
+</ul>
+
+<div id="content">
+<h2> Hand Ranks </h2>
+
+<p> The table below shows all the combinations of cards that increase a hands value in poker.  If an opponent has a combination that is higher in the list than your hand, then he/she will win. In texas hold'em, there are seven cards that can be matched, but only the top 5 cards are counted.</p>
+
+<table class="handRanks">
+  <tr>
+    <th>Hand Name</th>
+    <th style = "width:220px">Example</th>
+	<th>Description</th>
+	<th style = "width:80px">Odds</th>
+  </tr>
+  <tr>
+    <td>Royal Flush</td>
+    <td class = "inline">
+		<img src="Cards/2.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/6.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/10.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/14.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/18.png" alt="Card" style="width:36px;height:48px">
+	</td>
+	<td>Ace through 10 with cards of the same suit</td>	
+    <td>649,739 : 1</td>
+  </tr>
+  <tr>
+    <td>Straight Flush</td>
+    <td>
+		<img src="Cards/16.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/20.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/24.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/28.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/32.png" alt="Card" style="width:36px;height:48px">
+	</td>
+	<td>Five consecutive cards of the same suit</td>
+    <td>72,192 : 1</td>
+  </tr>
+  <tr>
+    <td>Four of a Kind</td>
+    <td>
+		<img src="Cards/29.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/30.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/31.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/32.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/13.png" alt="Card" style="width:36px;height:48px">
+	</td> 
+	<td>Four cards with the same value</td>
+    <td>4,164 : 1</td>
+  </tr>
+  <tr>
+    <td>Full House</td>
+    <td>
+		<img src="Cards/50.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/51.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/52.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/18.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/19.png" alt="Card" style="width:36px;height:48px">
+	</td> 
+	<td>Three cards with the same value, and two cards with the same value</td>
+    <td>693 : 1</td>
+  </tr>
+  <tr>
+    <td>Flush</td>
+    <td>
+		<img src="Cards/3.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/15.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/23.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/27.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/47.png" alt="Card" style="width:36px;height:48px">
+	</td> 
+	<td>Five cards of the same suit</td>
+    <td>508 : 1</td>
+  </tr>
+  <tr>
+    <td>Straight</td>
+    <td>
+		<img src="Cards/9.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/15.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/20.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/24.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/26.png" alt="Card" style="width:36px;height:48px">
+	</td> 
+	<td>Five consecutive cards</td>
+    <td>254 : 1</td>
+  </tr>
+  <tr>
+    <td>Three of a Kind</td>
+    <td>
+		<img src="Cards/7.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/8.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/5.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/13.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/22.png" alt="Card" style="width:36px;height:48px">
+	</td> 
+	<td>Three cards with the same value</td>
+    <td>46.3 : 1</td>
+  </tr>
+  <tr>
+    <td>Two Pair</td>
+    <td>
+		<img src="Cards/10.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/12.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/13.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/14.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/1.png" alt="Card" style="width:36px;height:48px">
+	</td> 
+	<td>Two cards with the same value and two cards with the same value</td>
+    <td>20.0 : 1</td>
+  </tr>
+  <tr>
+    <td>Single pair</td>
+	<td>
+		<img src="Cards/3.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/4.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/28.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/30.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/37.png" alt="Card" style="width:36px;height:48px">
+	</td> 
+    <td>Two cards with the same value</td> 
+    <td>1.36 : 1</td>
+  </tr>
+  <tr>
+    <td>High Card</td>
+	<td>
+		<img src="Cards/5.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/15.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/21.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/43.png" alt="Card" style="width:36px;height:48px">
+		<img src="Cards/51.png" alt="Card" style="width:36px;height:48px">
+	</td> 
+    <td>Highest card wins, if tied, second highest card, if tied third, if five are the same, split</td> 
+    <td>0.995 : 1</td>
+  </tr>
+</table>
+</div>
+</div>
+
+<div id="footer">
+<div>This site is by Owen Underwood, Chris Gerhardstein, Brea Llorens</div>
+</div>
+
+</body>

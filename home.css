@@ -1,0 +1,127 @@
+/** ------------ General ------------ **/
+
+body {
+	background-image: url("casino.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	margin: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+	margin: 0px;
+	font-size: 3em;
+	font-weight: 400;
+	font-family: 'Slabo 27px', serif;
+	color: #53D9B7;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+/** ------------ ID Tags ------------ **/
+
+#container {
+	width: 1024px;
+	margin: 5% auto;
+	background-color: #00A37A;
+	color: white;
+	min-height: 600px;
+	border-radius: 5px;
+}
+
+#header {
+	padding: 4% 5%;
+	background-color: #007E5E;
+	border-radius: inherit;
+}
+
+#content { padding: 2% 5%; }
+
+#navbar {
+	padding: 0 5%;
+	margin: 5% 0;
+	font-family: 'Slabo 27px', serif;
+}
+
+#navbar li {
+	display: inline;
+	font-size: 1.05em;
+	padding: 1% 2%;
+	background-color: #007E5E;
+	margin-right: 2%;
+	color: #53D9B7;
+	border-radius: 5px;
+}
+
+#footer {
+	padding: 1em 0;
+	background-color: #007E5E;
+	/*background: #00cc99;*/
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	color: white;
+}
+
+#footer div {
+	margin: 0 auto;
+	width: 1024px;
+}
+
+/** ------------ Classes ------------ **/
+
+.terms {}
+
+.terms th {
+	text-align: left;
+	padding: .6em 4em .1em .1em
+}
+
+.terms td {
+	text-align: left;
+	padding: .6em 4em .1em .1em
+}
+
+.handRanks {
+	background-color: #000000;
+	border: 2px solid black;
+	padding: .1em .1em .1em  .1e;
+	color: black;
+	
+}
+
+.handRanks td {
+	background-color: white;
+	text-align: center;
+	border: 2px solid black;
+	padding: .1em .1em .1em .1em;
+	color: black;
+}
+.handRanks th {
+	background-color: white;
+	text-align: center;
+	border: 2px solid black;
+	padding: .1em .1em .1em .1em
+}
+
+.block { display: block }
+
+.left {
+	width: 20%;
+	background-color: #66ff33;
+	float: left;
+	height: 3000px;
+	margin-right: .75em;
+}
+
+.right {
+	width: 20%;
+	background-color: #66ff33;
+	float: right;
+	height: 3000px;
+	margin-left: .75em;
+}
